@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-layer-bug",
+  "version": "1.0.0",
+  "author": "Ryan Roberts",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:RyanRoberts/tailwind-layer-bug.git"
+  },
+  "scripts": {
+    "watch": "tailwindcss --postcss -i ./src/tailwind.css -o ./dist/tailwind.css -w"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.6",
+    "postcss": "^8.3.5",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.2.4"
+  }
+}
